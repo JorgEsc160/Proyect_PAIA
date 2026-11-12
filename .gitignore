@@ -1,0 +1,53 @@
+# --- Entornos virtuales ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Secretos y configuración local (NUNCA subir) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# --- Bases de datos locales ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Audio, grabaciones y modelos pesados ---
+*.wav
+*.mp3
+*.ogg
+*.onnx
+*.bin
+*.pt
+*.gguf
+models/
+recordings/
+
+# --- Logs y temporales ---
+*.log
+logs/
+tmp/
+temp/
+
+# --- Editores y sistema operativo ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
